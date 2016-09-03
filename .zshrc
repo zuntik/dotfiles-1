@@ -72,7 +72,7 @@ precmd() {
 }
 
 ZLE_RPROMPT_INDENT=0
-PROMPT='[%F{10}%n%f@%F{1}%M%f] [%F{3}%D{%H:%M}%f] [%F{5}%~%f] ${vcs_info_msg_0_}
+PROMPT='[%F{10}%n%f@%F{94}$(hostname -f)%f] [%F{3}%D{%H:%M}%f] [%F{5}%~%f] ${vcs_info_msg_0_}
 %F{15}%?%f $ '
 
 [[ "$(uname -s)" == "Linux" ]] && setterm --tabs 4

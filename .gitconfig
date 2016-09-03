@@ -1,7 +1,7 @@
 [user]
 	name = João Pinheiro
 	email = joao.castropinheiro@gmail.com
-	signingKey = CA439ECD5D4F3704
+	#signingKey = CA439ECD5D4F3704
 [push]
 	default = tracking
 [pull]
@@ -16,4 +16,4 @@
 [fetch]
 	prune = true
 [commit]
-	gpgsign = true
+	gpgsign = false
