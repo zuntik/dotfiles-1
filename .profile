@@ -5,8 +5,7 @@ export PYTHONSTARTUP="$HOME/.pythonrc"
 export GOPATH="$HOME/code/proj/go"
 
 export PATH="$HOME/code/bin:$PATH:$GOPATH/bin"
-export PATH="/usr/lib/ccache/bin:$PATH"
+export PATH="$HOME/local/bin:$PATH"
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
-eval $(dircolors ~/.dircolors)
-
-if [ $(command -v redshift) ]; then redshift -m drm -o; fi
+eval $(gdircolors ~/.dircolors)

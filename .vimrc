@@ -21,9 +21,7 @@ if exists('g:vimpager.enabled')
 	autocmd BufRead,BufWinEnter * setlocal readonly nomodifiable
 	"let g:vimpager.passthrough=0
 	set colorcolumn=0
-	let aux = &t_ve
-	set t_ve= "Hide cursor
-	au VimLeave * let &t_ve=aux "Restore cursor upon exit
+	"set t_ve=
 else
 	set number
 	set colorcolumn=80

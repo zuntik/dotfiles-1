@@ -5,7 +5,7 @@ alias h="zathura ~/ist/a3s2/horas.pdf"
 # General system aliases
 alias sudo="sudo " # this enables sudo to use these aliases
 alias chown="chown -h"
-alias ls='ls -hX --group-directories-first --time-style=+"%d/%m/%Y %H:%M:%S" --color=auto -F --quoting-style=literal'
+alias ls='gls -hX --group-directories-first --time-style=+"%d/%m/%Y %H:%M:%S" --color=auto -F --quoting-style=literal'
 alias ll='ls -l'
 alias la='ls -Al'
 alias cal='cal -3'
