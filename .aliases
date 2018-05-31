@@ -96,6 +96,7 @@ alias gop="cd $GOPATH/src/github.com/pineman"
 alias k="keyboard"
 alias openssl-smtp-starttls="openssl s_client -quiet -starttls smtp -connect" # https://serverfault.com/a/336657
 alias memcheck="valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all --track-origins=yes"
+alias linux_mount="sudo ext4fuse -o allow_other,defer_permissions /dev/disk0s7 ~/linux"
 
 # Power-related
 alias lock="physlock"
